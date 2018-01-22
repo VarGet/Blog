@@ -1,0 +1,19 @@
+.blog-meta{
+	font-size: 1.4rem;
+	color: #333;
+}
+.blog-meta span{
+	color: #337ab7;
+}
+.blog-content p{
+	font-size: 1.6rem;
+}
+.blog-page span.blog-page-number{
+	border:none;
+}
+.yun-content a{
+	margin-bottom: 0.5rem;
+}
+.blog-select-width{
+	width: 22.6rem;
+}

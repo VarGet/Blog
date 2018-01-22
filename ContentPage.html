@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <title>Blog-contentPage</title>
+    <link rel="alternate icon" type="image/png" href="images/favicon.png">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- 首页main sstyle -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- jquery文件引入 -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand pull-left" href="#">NANNE</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="#">HOME</a></li>
+                    <li role="presentation" class="dropdown" >
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">JS-Frame <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">vuejs</a></li>
+                            <li><a href="#">nodejs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">資料</a></li>
+                    <li><a href="#">總結</a></li>
+                    <li role="presentation" class="dropdown" >
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search"></span> 搜索 </a>
+                        <div class="dropdown-menu blog-select-width">
+                            <form class="navbar-form" role="search">
+                                <div class="input-group">
+                                  <input type="text" class="form-control" placeholder="Search for...">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">Go!</button>
+                                  </span>
+                                </div>
+                            </from>
+                        </div>
+                    </li>
+                </ul>
+                
+                <ul class="nav navbar-nav pull-right">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">进入后台</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Sign Out</a></li>
+                      </ul>
+                    </li>
+                </ul>
+                <button type="button" class="btn navbar-btn pull-right btn-primary">sign in</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-8 main-content">
+                    <article class="blog-main">
+                        <h2><a href="#">Google fonts 的字體（display 篇)</a></h3>
+                        <h4 class="blog-meta">Release Time on <span>2018/02/17</span> Source <a href="#">NANNE</a></h4>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-7 blog-content">
+                                <p>你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+                                <p>因為那實在是太高級了。</p>
+                                <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times NewRoman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+                            </div>
+                            <div class="col-md-5">
+                                <p><img class="img-responsive" src="images/1.jpg"></p>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="blog-main">
+                        <h2><a href="#">Google fonts 的字體（display 篇)</a></h3>
+                        <h4 class="blog-meta">Release Time on <span>2018/02/17</span> Source <a href="#">NANNE</a></h4>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-7 blog-content">
+                                <p>你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+                                <p>因為那實在是太高級了。</p>
+                                <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times NewRoman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+                            </div>
+                            <div class="col-md-5">
+                                <p><img class="img-responsive" src="images/1.jpg"></p>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="blog-main">
+                        <h2><a href="#">Google fonts 的字體（display 篇)</a></h3>
+                        <h4 class="blog-meta">Release Time on <span>2018/02/17</span> Source <a href="#">NANNE</a></h4>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-7 blog-content">
+                                <p>你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+                                <p>因為那實在是太高級了。</p>
+                                <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times NewRoman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+                            </div>
+                            <div class="col-md-5">
+                                <p><img class="img-responsive" src="images/1.jpg"></p>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="blog-main">
+                        <h2><a href="#">Google fonts 的字體（display 篇)</a></h3>
+                        <h4 class="blog-meta">Release Time on <span>2018/02/17</span> Source <a href="#">NANNE</a></h4>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-7 blog-content">
+                                <p>你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+                                <p>因為那實在是太高級了。</p>
+                                <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times NewRoman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+                            </div>
+                            <div class="col-md-5">
+                                <p><img class="img-responsive" src="images/1.jpg"></p>
+                            </div>
+                        </div>
+                    </article>
+                    <hr>
+                    <ul class="pager blog-page">
+                        <li class="previous"><a href="#"><span aria-hidder="true">&larr;</span>Older</a></li>
+                        <li class="carousel-inner"><span class="blog-page-number">12/323</span></li>
+                        <li class="next"><a href="#">Newer <span aria-hidder="true">&rarr;</span></a></li>
+                    </ul>
+                </main>
+                <aside class="col-md-4 sidebar">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">关于我</div>
+                        <div class="panel-body">
+                            <p>前所未有的中文云端字型服务，让您在 web 平台上自由使用高品质中文字体，跨平台、可搜寻，而且超美。云端字型是我们的事业，推广字型学知识是我们的志业。从字体出发，关心设计与我们的生活，justfont blog 正是為此而生。</p>
+                        </div>
+                        <a href="#" class="btn btn-link">更多信息<span>&rarr;</span></a>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">最热话题</div>
+                            <ul class="list-group">
+                                <li class="list-group-item"><span class="badge">16</span><a href="#">Google fonts 的字體（sans-serif 篇）</a></li>
+                                <li class="list-group-item"><span class="badge">12</span><a href="#">[but]服貿最前線？－再訪桃園機場</a></li>
+                                <li class="list-group-item"><span class="badge">8</span><a href="#">到日星鑄字行學字型</a></li>
+                                <li class="list-group-item"><span class="badge">6</span><a href="#">glyph font vs. 漢字（上）</a></li>
+                                <li class="list-group-item"><span class="badge">3</span><a href="#">浙江民間書刻體上線</a></li>
+                                <li class="list-group-item"><span class="badge">1</span><a href="#">[極短篇] Android v.s iOS，誰的字體好讀？</a></li>
+                            </ul>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">API</div>
+                        <div class="panel-body yun-content " >
+                            <a class="btn btn-default" href="#">html5</a>
+                            <a class="btn btn-default" href="#">javascript</a>
+                            <a class="btn btn-default" href="#">nodejs</a>
+                            <a class="btn btn-default" href="#">vuejs</a>
+                            <a class="btn btn-default" href="#">css</a>
+                            <a class="btn btn-default" href="#">canvas</a>
+                            <a class="btn btn-default" href="#">jsonp</a>
+                            <a class="btn btn-default" href="#">bootstrap</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <br>
+    <footer>
+        <hr>
+        <p class="text-center">© 2018 Blognn.com 版权所有 粤ICP备17039078</p>
+    </footer>
+</body>
+</html>
