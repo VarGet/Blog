@@ -1,0 +1,32 @@
+.admin-bg{
+	background-color: #ebebeb;
+}
+.admin-nav{
+	height: 5em;
+	background: #ebebeb;
+}
+.admin-nav-top{
+	margin-top: 1.25rem;
+}
+.admin-wrap{
+	width: 96%;
+	margin: 0 auto;
+}
+.hr-color{
+	border-top-color:#ccc 
+}
+.admin-menu a{
+	display: block;
+	width: 90%;
+	height: 3.4rem;
+	padding: 0 5%;
+	line-height: 3.4rem;
+}
+.admin-menu a span{
+	width: 2rem;
+	height: 2rem;
+}
+.main-wrap{
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
